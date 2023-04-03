@@ -1,0 +1,22 @@
+#Contoh program functional programming, yaitu menghitung jumlah karakter pada string/teks.
+def hitung_karakter(string):
+    return len(string)
+
+kata = "Hello, world!"
+jumlah_karakter = hitung_karakter(kata)
+print(jumlah_karakter) #Output: 13
+
+
+#Contoh program OOP, yaitu membuat class "Kucing" dengan atribut dan method.
+class Kucing:
+    def __init__(self, nama, umur):
+        self.nama = nama
+        self.umur = umur
+    
+    def bersuara(self):
+        print("Meong!")
+
+kucingku = Kucing("Tom", 3)
+print(kucingku.nama)  #Output: Tom
+print(kucingku.umur)  #Output: 3
+kucingku.bersuara()   #Output: Meong!
